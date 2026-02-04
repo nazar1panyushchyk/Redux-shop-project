@@ -1,0 +1,42 @@
+.profile-container {
+  margin-top: 60px;
+}
+
+.profile-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  background-color: #c4c4c45e;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 460px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  gap: 8px;
+}
+
+.profile-form button {
+  background-color: #964c9a;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 195px;
+  height: 45px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 15px;
+}

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 6px 23px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-header {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-header a {
+  font-size: 16px;
+  font-weight: 600;
+  width: 73px;
+  height: 24px;
+}
+
+.logo {
+  width: 93px;
+  height: 67px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  background-color: #c4c4c45e;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.search {
+  background-color: transparent;
+  width: 527px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  outline: none;
+}
+
+.search-form button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.search::placeholder {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.user-more {
+  margin: 5px 0px 0px 2px;
+}
+
+.bell {
+  display: flex;
+  width: 32px;
+  height: 32px;
+}

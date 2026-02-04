@@ -1,0 +1,58 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 58px;
+}
+
+.button-back {
+  background-color: #964c9a;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 155px;
+  height: 35px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.remove-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.remove-button button {
+  background-color: #964c9a;
+  width: 90px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.purchase {
+  display: flex;
+  justify-content: center;
+}
+
+.purchase button {
+  background-color: #964c9a;
+  width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.cart-empty {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-empty h4 {
+  font-size: 17px;
+}

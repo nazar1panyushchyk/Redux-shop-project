@@ -1,0 +1,30 @@
+.to-fav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.to-cart {
+  background-color: #964c9a;
+  width: 90px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+}
+
+.fav-icon {
+  display: flex;
+  align-items: center;
+}
+
+.fav-empty h4 {
+  font-size: 17px;
+}
+
+
+.fav-empty {
+  display: flex;
+  justify-content: center;
+}
